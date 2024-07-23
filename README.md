@@ -1,17 +1,15 @@
-# "2048" game for Flipper Zero
-- play up to 65K
-- progress is saved on exit
+# "2048" Game for Flipper Zero
 
-![Game screen](images/screenshot1.png)
-![Menu screen](images/screenshot2.png)
+> A modernized version of the classic "2048" game for the Flipper Zero device. This version includes various enhancements and new features to improve gameplay and performance.
 
-#### TODO:
- - add animations
- 
-#### Thanks to:
- - [DroomOne's FlappyBird](https://github.com/DroomOne/flipperzero-firmware/tree/dev/applications/flappy_bird)
- - [x27's "15" Game](https://github.com/x27/flipperzero-game15)
+- Play up to 65K.
+- Progression save.
+- Undo. Bad luck? Move step back anytime.
 
-#### License
-[MIT](LICENSE)
-Copyright 2022 Eugene Kirzhanov
+## Acknowledgements
+
+This project is based on the great [work](https://github.com/eugene-kirzhanov/flipper-zero-2048-game) by Eugene Kirzhanov.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

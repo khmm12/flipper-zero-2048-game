@@ -2,7 +2,7 @@
 
 #include <stdint.h>
 
-uint8_t digits[16][14][14] = {
+const uint8_t digits[16][14][14] = {
 
     // 2
     {{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
