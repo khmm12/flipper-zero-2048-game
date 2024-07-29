@@ -33,6 +33,7 @@ void ui_state_menu_handle(
             // new game
             game_state_send(&gamectrl->state, GameReset);
             game_controller_save_state(gamectrl);
+            game_controller_close_menu(gamectrl);
             out->is_handled = true;
         }
         break;
